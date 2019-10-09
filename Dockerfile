@@ -1,7 +1,5 @@
 FROM openjdk:8-alpine as target
 
-COPY --from=builder /tmp/2.17.3/dbgen/ /tmp/tpch_gen/dbgen/
-
 WORKDIR /spark
 
 ARG spark_version=2.4.4
