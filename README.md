@@ -1,4 +1,4 @@
-# docker-spark
+# Building a SPARK docker container by running thriftserver and creating TPC-H tables for BI tools
 # Usage
 [docker build USAGE](https://docs.docker.com/engine/reference/commandline/build/)  
 [docker run USAGE](https://docs.docker.com/engine/reference/run/)  
